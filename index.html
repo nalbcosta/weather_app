@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto|Poppins">
+    <link rel="stylesheet" href="style.css">
+    <title>WeatherTime</title>
+</head>
+<body>
+    
+    <div class="container">
+        <div class="search-box">
+            <i class="fa-solid fa-location-dot"></i>
+            <input type="text" placeholder="Informe Localização">
+            <button class="fa-solid fa-magnifying-glass"></button>
+        </div>
+
+        <div class="not-found">
+            <img src="images/404.png">
+            <p>Ih! A localização informada é invalida</p>
+        </div>
+
+        <div class="weather-box">
+            <img src="">
+            <p class="temperature"></p>
+            <p class="description"></p>
+        </div>
+
+        <div class="detalhes-clima">
+            <div class="umidade">
+                <i class="fa-solid fa-water"></i>
+                <div class="texto">
+                    <span></span>
+                    <p>Umidade</p>
+                </div>
+            </div>
+            <div class="vento">
+                <i class="fa-solid fa-wind"></i>
+                <div class="texto">
+                    <span></span>
+                    <p>Velocidade do Vento</p>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="https://kit.fontawesome.com/ede49b7a42.js" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+</body>
+</html>
